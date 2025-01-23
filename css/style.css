@@ -30,7 +30,7 @@ body {
 
 #buy-tickets .card hr {
   margin: 25px 0;
-  border-color: rgba(255, 0, 0, 0.5);
+  border-color: #ff4d6d;
 }
 
 #buy-tickets .card .card-title {
@@ -39,13 +39,13 @@ body {
   letter-spacing: 1px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 #buy-tickets .card .card-price {
   font-size: 48px;
   margin: 0;
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 #buy-tickets .card ul li {
@@ -63,14 +63,14 @@ body {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #ff0000;
+  background-color: #ff4d6d;
   border: 0;
   color: #fff;
   text-transform: uppercase;
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #d40000;
+  background-color: #ff4d6d;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -78,7 +78,7 @@ body {
   border-radius: 0;
   background-color: #111;
   color: #fff;
-  border: 1px solid #ff0000;
+  border: 1px solid #ff4d6d;
 }
 
 #buy-tickets #buy-ticket-modal .btn {
@@ -86,24 +86,24 @@ body {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #ff0000;
+  background-color: #ff4d6d;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #d40000;
+  background-color: #ff4d6d;
 }
 
 a {
-  color: #ff0000;
+  color: #ff4d6d;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #d40000;
+  color: #ff4d6d;
   outline: none;
   text-decoration: none;
 }
@@ -124,7 +124,7 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 .main-page {
@@ -149,7 +149,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #ff0000;
+  background: #ff4d6d;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -166,13 +166,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #d40000;
+  background: #ff4d6d;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #d40000;
+  background: #ff4d6d;
   color: #fff;
 }
 
@@ -188,7 +188,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #ff0000;
+  background: #ff4d6d;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -233,7 +233,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(255, 0, 0, 0.9);
+  background: #ff4d6d;
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -252,12 +252,12 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #ff0000;
+  color: #ff4d6d;
   text-decoration: none;
 }
 
@@ -287,7 +287,7 @@ h6 {
   left: 0;
   z-index: 99;
   background-color: #111;
-  border: 1px solid #ff0000;
+  border: 1px solid #ff4d6d;
 }
 
 .nav-menu li {
@@ -318,7 +318,7 @@ h6 {
 
 .sf-arrows .sf-with-ul {
   padding-right: 30px;
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 .sf-arrows .sf-with-ul:after {
@@ -328,7 +328,7 @@ h6 {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 .sf-arrows ul .sf-with-ul:after {
@@ -351,7 +351,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(255, 0, 0, 0.9);
+  background: #ff4d6d;
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -370,12 +370,12 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #ff0000;
+  color: #ff4d6d;
   text-decoration: none;
 }
 
@@ -405,7 +405,7 @@ h6 {
   left: 0;
   z-index: 99;
   background-color: #111;
-  border: 1px solid #ff0000;
+  border: 1px solid #ff4d6d;
 }
 
 .nav-menu li {
@@ -436,7 +436,7 @@ h6 {
 
 .sf-arrows .sf-with-ul {
   padding-right: 30px;
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 .sf-arrows .sf-with-ul:after {
@@ -446,7 +446,7 @@ h6 {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 .sf-arrows ul .sf-with-ul:after {
@@ -464,7 +464,7 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(255, 0, 0, 0.8);
+  color: #ff4d6d;
   font-family: "Squid Game Font", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -487,7 +487,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ff0000;
+  background-color: #ff4d6d;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -501,10 +501,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #ff0000;
+  background: #ff4d6d;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #ff0000;
+  border: 2px solid #ff4d6d;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -545,7 +545,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #ff0000;
+  background: #ff4d6d;
   color: #fff;
 }
 
@@ -612,7 +612,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 #mobile-nav ul li li {
@@ -629,11 +629,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 #mobile-body-overly {
@@ -660,7 +660,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 body.mobile-nav-active #mobile-nav-toggle {
-  color: #ff0055; /* Squid Game pink */
+  color: #ff4d6d; /* Squid Game pink */
 }
 
 /*--------------------------------------------------------------
@@ -709,7 +709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #ff0000; /* Squid Game green */
+  color: #ff4d6d; /* Squid Game green */
 }
 
 #intro p {
@@ -721,12 +721,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ff0055 50%, rgba(101, 0, 0, 0.15) 52%);
+  background: radial-gradient(#ff4d6d 50%, rgba(101, 0, 0, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 15px #ff0055;
+  box-shadow: 0 0 15px #ff4d6d;
 }
 
 #intro .play-btn::after {
@@ -1189,7 +1189,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #ff0000;
+  color: #ff4d6d;
   font-weight: normal;
   font-size: 16px;
 }
@@ -1218,7 +1218,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
   height: 100%;
   min-height: 300px;
-  border: 5px solid #d00; /* Red border to represent danger */
+  border: 5px solid #ff4d6d; /* Red border to represent danger */
   border-radius: 8px; /* Slightly rounded edges */
 }
 
@@ -1243,7 +1243,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #venue .venue-info h3 {
   font-size: 42px; /* Slightly larger for emphasis */
   font-weight: 900; /* Extra bold font weight */
-  color: #d00; /* Red text for a Squid Game vibe */
+  color: #ff4d6d; /* Red text for a Squid Game vibe */
   text-transform: uppercase;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
@@ -1261,8 +1261,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #venue .venue-gallery {
   overflow: hidden;
-  border-right: 5px solid #d00; /* Bold red border */
-  border-bottom: 5px solid #d00;
+  border-right: 5px solid #ff4d6d; /* Bold red border */
+  border-bottom: 5px solid #ff4d6d;
   background-color: #222; /* Dark background for contrast */
 }
 
@@ -1290,8 +1290,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters .supporters-wrap {
-  border-top: 1px solid #d00; /* Red borders for Squid Game vibe */
-  border-left: 1px solid #d00;
+  border-top: 1px solid #ff4d6d; /* Red borders for Squid Game vibe */
+  border-left: 1px solid #ff4d6d;
   margin-bottom: 30px;
 }
 
@@ -1306,8 +1306,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #d00; /* Red borders */
-  border-bottom: 1px solid #d00;
+  border-right: 1px solid #ff4d6d; /* Red borders */
+  border-bottom: 1px solid #ff4d6d;
   overflow: hidden;
   background: rgba(0, 0, 0, 0.8); /* Transparent dark background */
   height: 160px;
@@ -1340,8 +1340,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters .supporters-wrap {
-  border-top: 1px solid #d00; /* Red borders for Squid Game vibe */
-  border-left: 1px solid #d00;
+  border-top: 1px solid #ff4d6d; /* Red borders for Squid Game vibe */
+  border-left: 1px solid #ff4d6d;
   margin-bottom: 30px;
 }
 
@@ -1356,8 +1356,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #d00; /* Red borders */
-  border-bottom: 1px solid #d00;
+  border-right: 1px solid #ff4d6d; /* Red borders */
+  border-bottom: 1px solid #ff4d6d;
   overflow: hidden;
   background: rgba(0, 0, 0, 0.8); /* Transparent dark background */
   height: 160px;
@@ -1405,7 +1405,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets .card hr {
   margin: 25px 0;
-  border-color: rgba(255, 0, 0, 0.5);
+  border-color: #ff4d6d;
 }
 
 #buy-tickets .card .card-title {
@@ -1414,13 +1414,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 1px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 #buy-tickets .card .card-price {
   font-size: 48px;
   margin: 0;
-  color: #ff0000;
+  color: #ff4d6d;
 }
 
 #buy-tickets .card ul li {
@@ -1438,14 +1438,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #ff0000;
+  background-color: #ff4d6d;
   border: 0;
   color: #fff;
   text-transform: uppercase;
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #d40000;
+  background-color: #ff4d6d;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1453,7 +1453,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
   background-color: #111;
   color: #fff;
-  border: 1px solid #ff0000;
+  border: 1px solid #ff4d6d;
 }
 
 #buy-tickets #buy-ticket-modal .btn {
@@ -1461,13 +1461,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #ff0000;
+  background-color: #ff4d6d;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #d40000;
+  background-color: #ff4d6d;
 }
 
 /*--------------------------------------------------------------
