@@ -1,10 +1,3 @@
-/*
-  Theme Name: TheEvent
-  Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -15,15 +8,102 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#buy-tickets {
+  padding: 60px 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Squid Game Font', sans-serif;
+}
+
+#buy-tickets .card {
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 25px 0 rgba(255, 0, 0, 0.1);
+  background-color: #111;
+  color: #fff;
+}
+
+#buy-tickets .card:hover {
+  box-shadow: 0 10px 35px 0 rgba(255, 0, 0, 0.2);
+}
+
+#buy-tickets .card hr {
+  margin: 25px 0;
+  border-color: rgba(255, 0, 0, 0.5);
+}
+
+#buy-tickets .card .card-title {
+  margin: 10px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff0000;
+}
+
+#buy-tickets .card .card-price {
+  font-size: 48px;
+  margin: 0;
+  color: #ff0000;
+}
+
+#buy-tickets .card ul li {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#buy-tickets .card .text-muted {
+  opacity: 0.7;
+  color: #ccc;
+}
+
+#buy-tickets .card .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #ff0000;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#buy-tickets .card .btn:hover {
+  background-color: #d40000;
+}
+
+#buy-tickets #buy-ticket-modal input,
+#buy-tickets #buy-ticket-modal select {
+  border-radius: 0;
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #ff0000;
+}
+
+#buy-tickets #buy-ticket-modal .btn {
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  transition: all 0.2s;
+  background-color: #ff0000;
+  border: 0;
+  color: #fff;
+}
+
+#buy-tickets #buy-ticket-modal .btn:hover {
+  background-color: #d40000;
+}
+
 a {
-  color: #03fcf8;
+  color: #ff0000;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #03fcf8;
+  color: #d40000;
   outline: none;
   text-decoration: none;
 }
@@ -31,6 +111,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  color: #fff;
 }
 
 h1,
@@ -43,7 +124,7 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: #ff0000;
 }
 
 .main-page {
@@ -54,8 +135,6 @@ h6 {
   visibility: hidden;
 }
 
-/* Prelaoder */
-
 #preloader {
   position: fixed;
   left: 0;
@@ -64,15 +143,13 @@ h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
+  background: #000 url("../img/preloader.svg") no-repeat center center;
 }
-
-/* Back to top button */
 
 .back-to-top {
   position: fixed;
   display: none;
-  background: #03fcf8;
+  background: #ff0000;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -89,18 +166,15 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #03fcf8;
+  background: #d40000;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #03fcf8;
+  background: #d40000;
   color: #fff;
 }
-
-/* Sections Header
---------------------------------*/
 
 .section-header {
   margin-bottom: 60px;
@@ -114,7 +188,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #03fcf8;
+  background: #ff0000;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -125,6 +199,7 @@ h6 {
   text-align: center;
   font-weight: 700;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .section-header p {
@@ -137,7 +212,7 @@ h6 {
 }
 
 .section-with-bg {
-  background-color: #f6f7fd;
+  background-color: #111;
 }
 
 /*--------------------------------------------------------------
@@ -153,11 +228,12 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background-color: #111;
 }
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
+  background: rgba(255, 0, 0, 0.9);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -168,19 +244,21 @@ h6 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: "Squid Game Font", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
+  color: #fff;
 }
 
 #header #logo h1 span {
-  color: #03fcf8;
+  color: #ff0000;
 }
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #fff;
+  color: #ff0000;
+  text-decoration: none;
 }
 
 #header #logo img {
@@ -208,6 +286,8 @@ h6 {
   top: 100%;
   left: 0;
   z-index: 99;
+  background-color: #111;
+  border: 1px solid #ff0000;
 }
 
 .nav-menu li {
@@ -231,12 +311,14 @@ h6 {
 
 .nav-menu ul li {
   min-width: 180px;
+  color: #fff;
 }
 
 /* Nav Menu Arrows */
 
 .sf-arrows .sf-with-ul {
   padding-right: 30px;
+  color: #ff0000;
 }
 
 .sf-arrows .sf-with-ul:after {
@@ -246,6 +328,7 @@ h6 {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
+  color: #ff0000;
 }
 
 .sf-arrows ul .sf-with-ul:after {
@@ -253,6 +336,122 @@ h6 {
 }
 
 /* Nav Meu Container */
+
+#header {
+  height: 90px;
+  padding: 25px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+  background-color: #111;
+}
+
+#header.header-scrolled,
+#header.header-fixed {
+  background: rgba(255, 0, 0, 0.9);
+  height: 70px;
+  padding: 15px 0;
+  transition: all 0.5s;
+}
+
+#header #logo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 6px 0;
+  line-height: 1;
+  font-family: "Squid Game Font", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#header #logo h1 span {
+  color: #ff0000;
+}
+
+#header #logo h1 a,
+#header #logo h1 a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+#header #logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+/* Nav Menu Essentials */
+
+.nav-menu,
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+  background-color: #111;
+  border: 1px solid #ff0000;
+}
+
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu > li {
+  float: left;
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
+}
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu ul li {
+  min-width: 180px;
+  color: #fff;
+}
+
+/* Nav Menu Arrows */
+
+.sf-arrows .sf-with-ul {
+  padding-right: 30px;
+  color: #ff0000;
+}
+
+.sf-arrows .sf-with-ul:after {
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  color: #ff0000;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+  content: "\f105";
+}
 
 #nav-menu-container {
   float: right;
@@ -265,8 +464,8 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  color: rgba(255, 0, 0, 0.8);
+  font-family: "Squid Game Font", sans-serif;
   font-weight: 600;
   font-size: 14px;
   outline: none;
@@ -288,7 +487,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #03fcf8;
+  background-color: #ff0000;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -302,10 +501,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #03fcf8;
+  background: #ff0000;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #03fcf8;
+  border: 2px solid #ff0000;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -326,8 +525,8 @@ h6 {
 .nav-menu ul {
   margin: 4px 0 0 0;
   padding: 10px;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  background: #fff;
+  box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.25);
+  background: #000;
   border-radius: 3px;
 }
 
@@ -337,7 +536,7 @@ h6 {
 
 .nav-menu ul li a {
   padding: 10px;
-  color: #060c22;
+  color: #fff;
   transition: 0.3s;
   display: block;
   font-size: 13px;
@@ -346,7 +545,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #03fcf8;
+  background: #ff0000;
   color: #fff;
 }
 
@@ -383,7 +582,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(6, 12, 34, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -413,7 +612,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #03fcf8;
+  color: #ff0000;
 }
 
 #mobile-nav ul li li {
@@ -430,11 +629,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #03fcf8;
+  color: #ff0000;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #03fcf8;
+  color: #ff0000;
 }
 
 #mobile-body-overly {
@@ -444,9 +643,10 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   display: none;
 }
+
 
 /* Mobile Nav body classes */
 
@@ -1213,21 +1413,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets {
   padding: 60px 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Squid Game Font', sans-serif;
 }
 
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
-  transition: all  0.3s ease-in-out;
-  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 25px 0 rgba(255, 0, 0, 0.1);
+  background-color: #111;
+  color: #fff;
 }
 
 #buy-tickets .card:hover {
-  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+  box-shadow: 0 10px 35px 0 rgba(255, 0, 0, 0.2);
 }
 
 #buy-tickets .card hr {
   margin: 25px 0;
+  border-color: rgba(255, 0, 0, 0.5);
 }
 
 #buy-tickets .card .card-title {
@@ -1235,19 +1441,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
+  text-transform: uppercase;
+  color: #ff0000;
 }
 
 #buy-tickets .card .card-price {
   font-size: 48px;
   margin: 0;
+  color: #ff0000;
 }
 
 #buy-tickets .card ul li {
   margin-bottom: 20px;
+  color: #fff;
 }
 
 #buy-tickets .card .text-muted {
   opacity: 0.7;
+  color: #ccc;
 }
 
 #buy-tickets .card .btn {
@@ -1255,18 +1466,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #03fcf8;
+  background-color: #ff0000;
   border: 0;
   color: #fff;
+  text-transform: uppercase;
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #03fcf8;
+  background-color: #d40000;
 }
 
 #buy-tickets #buy-ticket-modal input,
 #buy-tickets #buy-ticket-modal select {
   border-radius: 0;
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #ff0000;
 }
 
 #buy-tickets #buy-ticket-modal .btn {
@@ -1274,118 +1489,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #03fcf8;
+  background-color: #ff0000;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #03fcf8;
+  background-color: #d40000;
 }
 
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
 
-#contact {
-  padding: 60px 0;
-}
 
-#contact .contact-info {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-#contact .contact-info i {
-  font-size: 48px;
-  display: inline-block;
-  margin-bottom: 10px;
-  color: #03fcf8;
-}
-
-#contact .contact-info address,
-#contact .contact-info p {
-  margin-bottom: 0;
-  color: #112363;
-}
-
-#contact .contact-info h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #112363;
-}
-
-#contact .contact-info a {
-  color: #4869df;
-}
-
-#contact .contact-info a:hover {
-  color: #03fcf8;
-}
-
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
-  margin-bottom: 20px;
-}
-
-#contact .form #sendmessage {
-  color: #03fcf8;
-  border: 1px solid #03fcf8;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input,
-#contact .form textarea {
-  padding: 10px 14px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 15px;
-}
-
-#contact .form button[type="submit"] {
-  background: #03fcf8;
-  border: 0;
-  padding: 10px 40px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-#contact .form button[type="submit"]:hover {
-  background: #03fcf8;
-}
 
 /*--------------------------------------------------------------
 # Footer
