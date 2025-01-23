@@ -912,6 +912,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+.centralize-content {
+  text-align: center;
+}
+
+
 /*--------------------------------------------------------------
 # Responsive Design
 --------------------------------------------------------------*/
